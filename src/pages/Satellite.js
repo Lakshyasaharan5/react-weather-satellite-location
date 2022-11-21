@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import '../style.css';
 
-const GEO_API_KEY = "5366f42bd3cb4c128eb2633680c3de8d";
+const GEO_API_KEY = "";
 const REV_GEO_API = "https://api.geoapify.com/v1/geocode/reverse?";
 const ISS_POS_API = "http://api.open-notify.org/iss-now.json";
 

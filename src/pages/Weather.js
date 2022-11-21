@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import coordinatesLatLon from "./CoordinatesLatLon";
 
-const WEATHER_API_KEY = "02311b98e398c8f0277c8bf7985b4e09";
+const WEATHER_API_KEY = "";
 const WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather?"
 
 function Weather() {
