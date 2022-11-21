@@ -1,0 +1,165 @@
+.satellite-container {
+    width: 100%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.button {
+    box-shadow: inset 0px 1px 3px 0px #91b8b3;
+    background: linear-gradient(to bottom, #1e2422 5%, #6c7c7c 100%);
+    background-color: #1e2422;
+    border-radius: 5px;
+    border: 1px solid #566963;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 23px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #2b665e;
+    margin: 0 10px 10px;
+}
+
+.button:hover {
+    background: #633cfc;
+    background-image: -webkit-linear-gradient(top, #633cfc, #000000);
+    background-image: -moz-linear-gradient(top, #633cfc, #000000);
+    background-image: -ms-linear-gradient(top, #633cfc, #000000);
+    background-image: -o-linear-gradient(top, #633cfc, #000000);
+    background-image: linear-gradient(to bottom, #633cfc, #000000);
+    text-decoration: none;
+}
+
+.location-text {
+    font-family: Georgia, serif;
+    font-size: 35px;
+    letter-spacing: 1.2px;
+    word-spacing: 0.8px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.weather-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.weather-text {
+    font-size: 100px;
+    letter-spacing: 1.2px;
+    word-spacing: 0.8px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#menu {
+    background: #001B24;
+    color: #FFF;
+    height: 45px;
+    padding-left: 18px;
+    border-radius: 10px;
+}
+
+#menu ul,
+#menu li {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none
+}
+
+#menu ul {
+    width: 100%;
+}
+
+#menu li {
+    float: left;
+    display: inline;
+    position: relative;
+}
+
+#menu a {
+    display: block;
+    line-height: 45px;
+    padding: 0 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+#menu a.dropdown-arrow:after {
+    content: "\25BE";
+    margin-left: 5px;
+}
+
+#menu li a:hover {
+    color: #0099CC;
+    background: #F2F2F2;
+}
+
+#menu input {
+    display: none;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer
+}
+
+#menu label {
+    display: none;
+    line-height: 45px;
+    text-align: center;
+    position: absolute;
+    left: 35px
+}
+
+#menu label:before {
+    font-size: 1.6em;
+    content: "\2261";
+    margin-left: 20px;
+}
+
+#menu ul.sub-menus {
+    height: auto;
+    overflow: hidden;
+    width: 170px;
+    background: #444444;
+    position: absolute;
+    z-index: 99;
+    display: none;
+}
+
+#menu ul.sub-menus li {
+    display: block;
+    width: 100%;
+}
+
+#menu ul.sub-menus a {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+#menu li:hover ul.sub-menus {
+    display: block
+}
+
+#menu ul.sub-menus a:hover {
+    background: #F2F2F2;
+    color: #444444;
+}
